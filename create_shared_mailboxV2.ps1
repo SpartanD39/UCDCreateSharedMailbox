@@ -12,7 +12,7 @@ if (Get-Module -ListAvailable -Name ExchangeOnlineManagement) {
 	
 	if ($install -eq "Yes" -or $install -eq "yes") { 
 	
-		Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.5 
+		Install-Module -Name ExchangeOnlineManagement
 	
 	} else { 
 		
